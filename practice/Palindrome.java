@@ -13,7 +13,7 @@ public class Palindrome {
             ++i;
         }
 
-        i=0;
+        i = 0;
         while (i != size) {
             if (a[i] != y[i]) {
                 System.out.println("The string is not a PALINDROME!");

@@ -22,10 +22,10 @@ public class ElectricityBill {
             bill = 1 * units + standardCharge;
             System.out.println("The total bill is: " + bill);
         } else if (units >= 100 && units <= 200) {
-            bill = 1 * 100 + (units - 100) * 2 + standardCharge;
+            bill = 1 * 99 + (units - 99) * 2 + standardCharge;
             System.out.println("The total bill is: " + bill);
         } else if (units > 200) {
-            bill = 1 * 100 + 2 * 100 + (units - 200) * 3 + standardCharge;
+            bill = 1 * 99 + 2 * (200-99) + (units - 200) * 3 + standardCharge;
             System.out.println("The total bill is: " + bill);
         }
     }

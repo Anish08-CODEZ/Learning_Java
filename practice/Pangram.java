@@ -1,7 +1,7 @@
 public class Pangram {
     public static void main(String[] args) {
-        String x = "THE QUICK broWn FOX JUMPS OveR A LAZY DOG";
-        // String x = "He is ANISH";
+        // String x = "THE QUICK broWn FOX JUMPS OveR A LAZY DOG";
+        String x = "He is ANISH";
         x = x.toUpperCase();
         x = x.replace(" ", "");
         char y[] = x.toCharArray();
