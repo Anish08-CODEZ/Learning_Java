@@ -2,7 +2,7 @@ package countVowelsConsonantsSpecial;
 
 public class countALLModified {
     public static void main(String[] args) {
-        String x = "ANish' TapAS DUbeY";
+        String x = "ANish' 6545 DUbeY";
         x = x.toUpperCase();
         char y[] = x.toCharArray();
         int size = y.length;

@@ -54,6 +54,8 @@ public class MoneyDenomination {
         int total2 = a2 * 2;
         int total1 = a1;
 
+        int totalNotes = a2000 + a500 + a200 + a100 + a50 + a20 + a10 + a5 + a2 + a1;
+
         System.out.println("\n" + "The money DENOMINATION for " + ogAmt + " is:");
         System.out.println("FORMAT of denomination: (Rupees x Count of Note) = Product of both");
         System.out.println("\n" + "2000 x " + a2000 + " = " + total2000);
@@ -66,5 +68,6 @@ public class MoneyDenomination {
         System.out.println("5 x " + a5 + " = " + total5);
         System.out.println("2 x " + a2 + " = " + total2);
         System.out.println("1 x " + a1 + " = " + total1);
+        System.out.println("Total number of notes: " + totalNotes);
     }
 }
